@@ -1,0 +1,38 @@
+.todoList{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.todoList>.todoItem{
+    display: grid;
+    grid-template-rows: 16px 48px;
+    grid-template-columns: auto 16% 16%;
+    column-gap: 0.61%;
+}
+
+.todoItem>.todoTitle{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.todoItem>.todoBody{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.todoItem>.edit{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.todoItem>.delete{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}

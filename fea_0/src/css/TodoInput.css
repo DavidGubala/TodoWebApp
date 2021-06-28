@@ -1,0 +1,13 @@
+.todoInput{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    row-gap: 0.61%;
+    grid-template-rows: repeat(8, 32px);
+}
+
+.todoInput>*{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
