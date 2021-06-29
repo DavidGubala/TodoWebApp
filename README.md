@@ -9,7 +9,7 @@ yarn start
 Will be hosted on localhost:3000
 
 #### Front End Demo Screenshot
-![should be photo of front end](./fea_0/docs/front-end-demo.png)
+![should be photo of front end](https://github.com/DavidGubala/TodoWebApp/blob/main/fea_0/docs/front-end-demo.PNG)
 
 ## Start Back End
 `
@@ -20,4 +20,4 @@ Will be hosted on port 3001.
 Interaction with graphql api through localhost:3001/graphql
 
 #### GraphQL Demo Screenshot
-![should be photo of back end](./fea_0/docs/back-end-demo.png)
+![should be photo of back end](https://github.com/DavidGubala/TodoWebApp/blob/main/fea_0/docs/back-end-demo.PNG)
